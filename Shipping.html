@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<!--Links to Bootsrap CDN & external css stylesheet -->
+
+<head>
+    <title>1stopWatchShop</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script> -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="Task15CSSstyles.css">
+</head>
+<!--Header Container -->
+
+<body id="ShippingPage">
+    <header class="headings">
+        <a href="index.html">
+            <img src="Images/logo.png" alt="Logo" id="logoMain"></a>
+        <h1>Jeff's Store</h1>
+        <p>OneStopWatchShop!</p>
+        <!--Menu/Nav Bar -->
+        <div class="nav">
+            <a href="Index.html" id="Home">Home</a>
+            <a href="Products.html" id="Products">Products</a>
+            <a href="Contact.html" id="ContactUs">Contact</a>
+            <a href="Shipping.html" id="Ship">Shipping</a>
+        </div>
+    </header>
+    <!-- Standard container used below Header on all pages -->
+    <div class="conatiner-fluid">
+        <div class="card" id="shipbox">
+            <h1 id="boxTitle">Track you order</h1>
+            <p id="boxParagraph">All our orders are shipped through local e-commerce delivery providers</p>
+        </div>
+    </div>
+    <!-- Container used to create a block feature for client to enter parcel tracking number -->
+    <div class="container-fluid" id="formTrack1">
+        <h6 style="color: white;">Enter your tracking number to locate your parcel</h6>
+    </div>
+    <div class="conatiner-fluid" id="formTrack2">
+        <form action="new.php" class="form-inline">
+            <div class="form-group">
+                <label for="fname" id="inlineForm">Tracking Number</label>
+                <input type="text" name="First Name" class="form-control" id="trackingNum">
+            </div>
+        </form>
+    </div>
+    <!-- Form submits to external url of parcel tracking page -->
+    <div class="row justify-content-center">
+        <button class="btn btn-primary btn-sm" id="trackingBTN">Check</button>
+    </div>
+    <script src="Shop.js"></script>
+</body>
+
+</html>

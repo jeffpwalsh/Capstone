@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<!--Links to Bootsrap CDN & external css stylesheet -->
+
+<head>
+    <title>1stopWatchShop</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script> -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="Task15CSSstyles.css">
+</head>
+<!--Header Container -->
+
+<body id="HomePage">
+    <header class="headings">
+        <a href="index.html">
+            <img src="Images/logo.png" alt="Logo" id="logoMain"></a>
+        <h1>Jeff's Store</h1>
+        <p>OneStopWatchShop!</p>
+        <!--Menu/Nav Bar -->
+        <div class="nav">
+            <a href="Index.html" id="Home">Home</a>
+            <a href="Products.html" id="Products">Products</a>
+            <a href="Contact.html" id="ContactUs">Contact</a>
+            <a href="Shipping.html" id="Ship">Shipping</a>
+        </div>
+    </header>
+    <!-- Standard container used below Header on all pages -->
+    <div class="container-fluid">
+        <div class="card" id="shipbox">
+            <h1>Welcome to my store/project</h1>
+            <p>My landing page is being utilised to list certain features of my site that i wish to improve on
+                going forward.
+            </p>
+        </div>
+    </div>
+    <!-- Table Inserted -->
+    <div class="container">
+        <table class="table table-bordered table-dark table-hover " id="mainTable">
+            <thead id="tableHeader">
+                <tr>
+                    <th>Item</th>
+                    <th>Description</th>
+                    <th>Next Step</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Products</td>
+                    <td>add to cart feature added</td>
+                    <td>carousel of pics</td>
+                </tr>
+                <tr>
+                    <td>Contact Form</td>
+                    <td>Records user details and 1st prefered method of communication. User cannot leave empty</td>
+                    <td>Email user confirmation of submission</td>
+                </tr>
+                <tr>
+                    <td>Shipping</td>
+                    <td>Tracking number searches and displays fabricated date for delivery</td>
+                    <td>Pull actual info from an API</td>
+                </tr>
+                <tr>
+                    <td>Cart</td>
+                    <td>Records all products added. Clears cart on event and proceeds to shipping on checkout</td>
+                    <td>Qty manipulation and representation</td>
+                </tr>
+                <tr>
+                    <td>Discount</td>
+                    <td>Grants a 10% discount on the use of a coupon code - 'hyperion' </td>
+                    <td>Multiple discount codes for different items</td>
+                </tr>
+                <tr>
+                    <td>Logo</td>
+                    <td>Slides up and down on page loads</td>
+                    <td>Introduce a better design</td>
+                </tr>
+            </tbody>
+        </table>
+        <!-- Table End -->
+    </div>
+    <script src="Shop.js"></script>
+</body>
+
+</html>

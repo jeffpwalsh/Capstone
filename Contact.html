@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<!--Links to Bootsrap CDN & external css stylesheet -->
+
+<head>
+    <title>1stopWatchShop</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script> -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="Task15CSSstyles.css">
+</head>
+<!--Header Container -->
+
+<body id="ContactPage">
+    <header class="headings">
+        <a href="index.html">
+            <img src="Images/logo.png" alt="Logo" id="logoMain"></a>
+        <h1>Jeff's Store</h1>
+        <p>OneStopWatchShop!</p>
+        <!--Menu/Nav Bar -->
+        <div class="nav">
+            <a href="Index.html" id="Home">Home</a>
+            <a href="Products.html" id="Products">Products</a>
+            <a href="Contact.html" id="ContactUs">Contact</a>
+            <a href="Shipping.html" id="Ship">Shipping</a>
+        </div>
+    </header>
+    <!-- Standard container used below Header on all pages -->
+    <div class="container-fluid">
+        <div class="card" id="shipbox">
+            <h1>Get in touch!</h1>
+            <p>Capture your details below and we'll get back to you!</p>
+        </div>
+    </div>
+    <!-- Form Start -->
+    <div class="conatiner-fluid" id="formBlock">
+        <form>
+            <div class="form-group">
+                <label for="cName">Name</label>
+                <input type="text" name="First Name" class="form-control" id="cName">
+            </div>
+            <div class="form-group">
+                <label for="cSname">Surname</label>
+                <input type="text" name="Surname" class="form-control" id="cSname">
+            </div>
+            <div class="form-group">
+                <label for="emailA">Email</label>
+                <input type="email" name="Email" class="form-control" id="emailA">
+            </div>
+            <div class="form-group">
+                <label for="cellno">Contact Number</label>
+                <input type="text" name="Number" class="form-control" id="cellno">
+            </div>
+            <div class="form-check">
+                <h6>Preferred method of communication</h6>
+                <label class="form-check-label" for="opt1">
+                    <input type="radio" name="mail" class="form-check-input" id="opt1" value="email">Email</label>
+            </div>
+            <div class="form-check">
+                <label class="form-check-label" for="opt2">
+                    <input type="radio" name="phone" class="form-check-input" id="opt2" value="phone">Phone</label>
+            </div>
+            <div class="form-check">
+                <label class="form-check-label" for="opt3">
+                    <input type="radio" name="text" class="form-check-input" id="opt3" value="text">SMS</label>
+            </div>
+            <br>
+            <div class="form-group">
+                <label for="comments">Comments</label>
+                <textarea class="form-control" rows="5" id="comments"></textarea>
+            </div>
+            </form>
+            <!-- Form End -->
+            <div class="row justify-content-center">
+                <button type="button" class="btn btn-primary btn-sm" id="submitBTN">Submit</button>
+            </div>
+    </div>
+    <script src="Shop.js"></script>
+</body>
+
+</html>

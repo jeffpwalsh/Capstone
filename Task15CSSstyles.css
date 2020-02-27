@@ -1,0 +1,272 @@
+body {
+
+    font-family: "Century Gothic";
+    /*  font family set  */
+
+}
+
+.cartItemClass {
+    /*Hides alll carts before event*/
+
+    display: none;
+}
+
+
+
+.card-header a {
+    /*Shifts add to cart btn's right*/
+
+    float: right;
+
+}
+
+.card-header {
+    /* Visual edit*/
+
+    height: 60px;
+
+}
+
+
+.shippingForm input {
+    /* Visual edit*/
+
+    margin: 3px;
+    width: 100%;
+}
+
+#hideShipping,
+#hidePay,
+#hideCart {
+
+    display: none;
+    /*Hides before event*/
+
+}
+
+#payBlock {
+    /*Hides before event*/
+
+
+    display: none;
+}
+
+
+#logoMain {
+    /* Designed Logo edited and sits to the right of the header  */
+
+    float: right;
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+}
+
+#mainTable {
+    /* Changing bootstrap table font  */
+
+    font-size: small;
+
+}
+
+#tableHeader {
+    /* Used a backgorund image in the Table Header which matches the main Header  */
+
+    background-image: url(Images/headerbanner.png);
+    color: white;
+}
+
+#formBlock {
+    /* Used Used a backgorund image in the Forn which matches the main Header. Positioning & Editing   */
+
+    background-image: url(Images/headerbanner.png);
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+    border-radius: 2px;
+    margin-bottom: 2%;
+    color: white;
+
+
+}
+
+#shipbox {
+    /*  ID for Container below header on all pages */
+
+    background-color: lightgray;
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+    margin: 2%;
+}
+
+#shipbox2 {
+    /*  ID for Container below header on all pages  */
+
+
+    background-color: lightgray;
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+    margin: 2%;
+    height: 100px
+}
+
+#cartDisplay {
+    /*  ID for Container below header on all pages */
+
+
+    background-color: lightgray;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+    margin-bottom: 10px;
+
+
+}
+
+
+
+#ProductsPage,
+/* Background image set for all pages */
+#ContactPage,
+#ShippingPage,
+#HomePage {
+
+    background-image: url(Images/tile.png);
+}
+
+.headings {
+    /*  Main Header */
+
+
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+    background-image: url(Images/headerbanner.png);
+    padding: 20px;
+    border-radius: 20px;
+    margin-bottom: 2%;
+    margin-top: 2%;
+}
+
+.headings h1 {
+    /* Adjustment to Headings*/
+
+    color: white;
+    font-size: 300%;
+    font-weight: bolder;
+}
+
+.headings p {
+    /* Adjustment to Headings*/
+
+    font-stretch: expanded;
+    color: yellow;
+}
+
+#inlineForm {
+    /* Adjustment to form spacing*/
+
+    margin: 10px;
+
+}
+
+#formTrack2 {
+    /* Background image used in form*/
+
+    width: fit-content;
+    padding: 1%;
+    border-radius: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    background-image: url(Images/headerbanner.png);
+    margin-bottom: 10px;
+    color: white;
+
+
+}
+
+#formTrack1 {
+    /* Adjustment to form*/
+
+    padding: 20px;
+    width: 35%;
+    text-align: center;
+
+}
+
+#checkButton {
+    /* Adjustment to Button*/
+
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+
+.nav a {
+    /* Menu bar edit*/
+
+    text-decoration: none;
+    color: white;
+    padding: 5px;
+    width: 160px;
+    text-align: center;
+    background-color: #292b2c;
+    border-radius: 5px;
+    border: 1px solid white;
+}
+
+.nav a:hover {
+    /* Hover changes Menu bar */
+
+
+    color: white;
+    background-color: #d9534f;
+    /* border: 2px solid black; */
+    border-radius: 5px;
+}
+
+div img:hover {
+    /* Hover changes image size and filters image */
+
+    transform: scale(1.2);
+
+}
+
+.card img {
+    /* Img within card bootsrap class set to size to standardise product pics */
+
+    width: 250px;
+    height: 250px;
+
+}
+
+#layOut {
+    /* Entire page edit*/
+
+    width: 95%;
+    margin: auto;
+}
+
+.collapse {
+    /* color editing */
+
+    background-color: #5cb85c;
+}
+
+.btn {
+    /* general edit*/
+
+    width: 150px;
+}
+
+.card-header {
+    /* general edit*/
+
+    font-size: 200%;
+}

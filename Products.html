@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<!--Links to Bootsrap CDN & external css stylesheet -->
+
+<head>
+    <title>1stopWatchShop</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script> -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="Task15CSSstyles.css">
+</head>
+<!--Header Container -->
+
+<body id="ProductsPage">
+    <header class="headings">
+        <a href="index.html">
+            <img src="Images/logo.png" alt="Logo" id="logoMain"></a>
+        <h1>Jeff's Store</h1>
+        <p id="#loadParagraph">OneStopWatchShop!</p>
+        <!--Menu/Nav Bar -->
+        <div class="nav">
+            <a href="Index.html" id="Home">Home</a>
+            <a href="Products.html" id="Products">Products</a>
+            <a href="Contact.html" id="ContactUs">Contact</a>
+            <a href="Shipping.html" id="Ship">Shipping</a>
+        </div>
+    </header>
+    <!-- Standard container used below Header on all pages -->
+    <!--Quote inside container -->
+    <div class="container-fluid" style="display: inline-flex" id="cartBox">
+        <!-- CART -->
+        <div class="container">
+            <div class="card" id="cartDisplay">
+                <h1>Cart</h1>
+                <div id="hideCart">
+                    <button id="checkoutBtn" class="btn btn-danger" style="width: 120px">Checkout</button>
+                    <button id="qtyBtn" class="btn btn-success" style="width: 90px" disabled>Cart Items</button>
+                    <button id="checkoutDelete" class="btn btn-danger" style="width: 120px">Empty Cart</button>
+                    <br />
+                </div>
+            </div>
+        </div>
+        <!-- SHIPPING -->
+        <div class="container">
+            <div class="card" id="cartDisplay">
+                <h1>Shipping</h1>
+                <div id="hideShipping">
+                    <form class="shippingForm">
+                        <input type="text" id="customerName" placeholder="Enter Name">
+                        <input type="text" id="customerNumber" placeholder="Enter Contact Number">
+                        <input type="text" id="customerAddress" placeholder="Enter Address" type="text" row="3">
+                        <input type="radio" id="shippingOption" name="shipping" value="250" style="margin-top: 20px; width: 30px;">
+                        <label for="shippingOption">Shipping - R250</label><br>
+                    </form>
+                    <button id="shippingBtn" class="btn btn-danger">Add Shipping</button>
+                </div>
+            </div>
+        </div>
+        <!-- PAY -->
+        <div class="container">
+            <div class="card" id="cartDisplay">
+                <h1>PAY</h1>
+                <div id="hidePay">
+                    <h5 id="payItemTotal">test</h5>
+                    <h5 id="shipItemTotal">test</h5>
+                    <br>
+                    <input type="text" id="discountCode" placeholder="Enter Discount Code"><button id="discountBTN">Check</button>
+                    <br>
+                    <br>
+                    <h1 id="totalTotal">test</h1>
+                    <p id="discountCalc"></p>
+                    <br>
+                    <button id="payBtn" class="btn btn-danger">Pay</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--Start - Grid of Products using Bootstrap Cards -->
+    <div class="container-fluid productGrid">
+        <div class="card-columns" id="layOut">
+            <!--Product (Card ) Start-->
+            <div class="card">
+                <img class="card-img-fluid" src="Images/Fitbitionic.png" alt="watch">
+                <h3 class="card-title p-2">Fitbit Ionic</h3>
+                <p class="card-text">This is product info</p>
+                <div class="card-header text-light bg-primary bg-dark">R4 999<button href="#ionic1" type="button" class="btn btn-primary" data-toggle="collapse" style="float: right;" id="buttonOne">Add to
+                        Cart</button></div>
+                <div id="ionic1" class="collapse" style="padding: 5px;">
+                    Your product has been added to your cart!</b>
+                </div>
+            </div>
+            <!--Product (Card ) End-->
+            <!--Product (Card ) Start-->
+            <div class="card">
+                <img class="card-img-fluid" src="Images/Fitbitinspire.png" alt="watch">
+                <h3 class="card-title p-2">Fitbit Inspire</h3>
+                <p class="card-text">This is product info</p>
+                <div class="card-header text-light bg-primary bg-dark">R1 599<button href="#inspire1" type="button" class="btn btn-primary" data-toggle="collapse" style="float: right;" id="buttonTwo">Add to
+                        Cart</button></div>
+                <div id="inspire1" class="collapse" style="padding: 5px;">
+                    Your product has been added to your cart!</b>
+                </div>
+            </div>
+            <!--Product (Card ) End-->
+            <!--Product (Card ) Start-->
+            <div class="card">
+                <img class="card-img-fluid" src="Images/Fitbitcharge3.png" alt="watch">
+                <h3 class="card-title p-2">Fitbit Charge 3</h3>
+                <p class="card-text">This is product info</p>
+                <div class="card-header text-light bg-primary bg-dark">R2 899<button href="#charge3" type="button" class="btn btn-primary" data-toggle="collapse" style="float: right;" id="buttonThree">Add to
+                        Cart</button></div>
+                <div id="charge3" class="collapse" style="padding: 5px;">
+                    Your product has been added to your cart!</b>
+                </div>
+            </div>
+            <!--Product (Card ) End-->
+            <!--Product (Card ) Start-->
+            <div class="card">
+                <img class="card-img-fluid" src="Images/Garmin935.png" alt="watch">
+                <h3 class="card-title p-2">Garmin Forerunner 935</h3>
+                <p class="card-text">This is product info</p>
+                <div class="card-header text-light bg-primary bg-dark">R5 299<button href="#G935" type="button" class="btn btn-primary" data-toggle="collapse" style="float: right;" id="buttonFour">Add to
+                        Cart</button></div>
+                <div id="G935" class="collapse" style="padding: 5px;">
+                    Your product has been added to your cart!</b>
+                </div>
+            </div>
+            <!--Product (Card ) End-->
+            <!--Product (Card ) Start-->
+            <div class="card">
+                <img class="card-img-fluid" src="Images/Garminvivofit4.png" alt="watch">
+                <h3 class="card-title p-2">Garmin Vivofit 4</h3>
+                <p class="card-text">This is product info</p>
+                <div class=" card-header text-light bg-primary bg-dark">R 1999<button href="#vivofit4" type="button" class="btn btn-primary" data-toggle="collapse" style="float: right;" id="buttonFive">Add to
+                        Cart</button></div>
+                <div id="vivofit4" class="collapse" style="padding: 5px;">
+                    Your product has been added to your cart!</b>
+                </div>
+            </div>
+            <!--Product (Card ) End-->
+            <!--Product (Card ) Start-->
+            <div class="card">
+                <img class="card-img-fluid" src="Images/Garminfenix6.png" alt="watch">
+                <h3 class="card-title p-2">Garmin Fenix 6</h3>
+                <p class="card-text">This is product info</p>
+                <div class="card-header text-light bg-primary bg-dark">R 7499<button href="#fenix6" type="button" class="btn btn-primary" data-toggle="collapse" style="float: right;" id="buttonSix">Add to
+                        Cart</button></div>
+                <div id="fenix6" class="collapse" style="padding: 5px;">
+                    Your product has been added to your cart!</b>
+                </div>
+            </div>
+            <!--Product (Card ) End-->
+        </div>
+    </div>
+    </div>
+    </div>
+    </div>
+    <script src="Shop.js"></script>
+</body>
+
+</html>
