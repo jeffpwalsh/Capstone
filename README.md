@@ -36,7 +36,7 @@
 - Click "Add to Cart" for desired product/s
 - Click "Remove" to empty cart products
 - Click "Checkout" to move over to Shipping details
-- Click Shipping charge should you wish to collect or have product delivered
+- Click "Shipping" charge should you wish to collect or have product delivered
 - Apply Discount coupon code at pay point
 - Unique customer number generated.
 - Submit Contact info under Contact page
@@ -56,8 +56,9 @@
   
  ## Log
  28/02/2020
--Main branch commit via Gitbash
--README created
+ 
+- Main branch commit via Gitbash
+- README created
   
  
  
