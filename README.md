@@ -9,7 +9,7 @@
  - Contact information page & submission 
  - Parcel tracking function (simulated)
  
-- Table of Contents
+## Table of Contents
 ``` 
 - Index.html
 - Products.html
@@ -17,7 +17,7 @@
 - Shipping.html
 ```
     
- - Technologies & Tools Used
+## Technologies & Tools Used
 ``` 
 - HTML
 - CSS
@@ -44,7 +44,7 @@
 
 ```
      
-- Credits
+## Credits
 
 ``` 
 - Hyperion
