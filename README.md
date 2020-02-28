@@ -1,5 +1,5 @@
 # One Stop Watch Shop
- - L1T15 
+ - Project (1) - Code: L1T15 
  
  ## Description
  - Basic store layout that sells smart watches.
