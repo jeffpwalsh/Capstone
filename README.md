@@ -59,6 +59,11 @@
  
 - Main branch commit via Gitbash
 - README created
+
+ 02/03/2020
+ 
+ - Created folders for CSS & JS code
+
   
  
  
