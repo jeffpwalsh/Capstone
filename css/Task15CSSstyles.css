@@ -71,14 +71,14 @@ body {
 #tableHeader {
     /* Used a backgorund image in the Table Header which matches the main Header  */
 
-    background-image: url(Images/headerbanner.png);
+    background-image: url('../Images/headerbanner.png');
     color: white;
 }
 
 #formBlock {
     /* Used Used a backgorund image in the Forn which matches the main Header. Positioning & Editing   */
 
-    background-image: url(Images/headerbanner.png);
+    background-image: url('../Images/headerbanner.png');
     width: 60%;
     margin-left: auto;
     margin-right: auto;
@@ -136,7 +136,7 @@ body {
 #ShippingPage,
 #HomePage {
 
-    background-image: url(Images/tile.png);
+    background-image: url('../Images/tile.png');
 }
 
 .headings {
@@ -146,7 +146,7 @@ body {
     width: 95%;
     margin-left: auto;
     margin-right: auto;
-    background-image: url(Images/headerbanner.png);
+    background-image: url('../Images/headerbanner.png');
     padding: 20px;
     border-radius: 20px;
     margin-bottom: 2%;
@@ -183,7 +183,7 @@ body {
     border-radius: 10px;
     margin-left: auto;
     margin-right: auto;
-    background-image: url(Images/headerbanner.png);
+    background-image: url('../Images/headerbanner.png');
     margin-bottom: 10px;
     color: white;
 
