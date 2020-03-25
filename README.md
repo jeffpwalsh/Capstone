@@ -1,6 +1,6 @@
 # One Stop Watch Shop
- - Project (1) - Code: L1T15 
- - https://jeffpwalsh.github.io/Capstone/Index.html
+ - Code: L1T15 
+
  
  ## Description
  - Basic store layout that sells smart watches.
